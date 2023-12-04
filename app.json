@@ -1,0 +1,33 @@
+{
+  "id": "283c9d48-bee0-4ec1-8fa7-e0ed5e5eb078",
+  "name": "BOOK_MANAGE",
+  "publisher": "DJAPOU",
+  "version": "1.0.0.0",
+  "brief": "Book manager",
+  "description": "Book manager",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
