@@ -1,9 +1,9 @@
 pageextension 50100 OrderProcessorRoleCenter extends "Order Processor Role Center"
 {
-    // layout
-    // {
-    //     // Add changes to page layout here
-    // }
+    layout
+    {
+        // Add changes to page layout here
+    }
 
     actions
     {
@@ -12,7 +12,7 @@ pageextension 50100 OrderProcessorRoleCenter extends "Order Processor Role Cente
         {
             group("Book Manager")
             {
-                action("Customer List")
+                action("Customer Bank Account List")
                 {
                     ApplicationArea = All;
                     RunObject = page "Customer Bank Account List";
