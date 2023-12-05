@@ -13,12 +13,19 @@ pageextension 50100 OrderProcessorRoleCenter extends "Order Processor Role Cente
             group("Book Manager")
             {
                 Caption = 'Book Manager';
-                action("Customer Bank Account List")
+                action("Book List")
                 {
-                    CaptionML = ENU = 'Customer Bank Account List', FRA = 'Liste des Comptes bancaire clients';
+                    CaptionML = ENU = 'Book List', FRA = 'Liste des livres';
                     Image = Setup;
                     ApplicationArea = All;
-                    RunObject = page "Customer Bank Account List";
+                    RunObject = page BookList;
+                }
+                action("Customer List")
+                {
+                    CaptionML = ENU = 'Customer List', FRA = 'Liste des clients';
+                    Image = Setup;
+                    ApplicationArea = All;
+                    RunObject = page "Customer List";
                 }
 
             }

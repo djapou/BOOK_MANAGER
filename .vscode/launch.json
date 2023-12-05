@@ -9,7 +9,7 @@
             "server": "http://localhost",
             "serverInstance": "BC365",
             "authentication": "UserPassword",
-            "startupObjectId": 22,
+            "startupObjectId": 50148,
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
