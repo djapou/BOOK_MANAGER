@@ -5,7 +5,7 @@ tableextension 50149 CustomerBookExt extends Customer
         // Add changes to table fields here
         field(50149; "crnFavorite Book No."; Code[20])
         {
-            Caption = 'Favorite Bokk No.';
+            Caption = 'Favorite Book No.';
             DataClassification = ToBeClassified;
             TableRelation = Book."No.";
         }

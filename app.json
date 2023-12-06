@@ -2,7 +2,7 @@
   "id": "283c9d48-bee0-4ec1-8fa7-e0ed5e5eb078",
   "name": "BOOK_MANAGE",
   "publisher": "DJAPOU",
-  "version": "1.0.0.0",
+  "version": "2.0.0.0",
   "brief": "Book manager",
   "description": "Book manager",
   "privacyStatement": "",
@@ -28,6 +28,6 @@
   },
   "runtime": "9.0",
   "features": [
-    "NoImplicitWith"
+    "TranslationFile"
   ]
 }
